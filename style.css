@@ -153,3 +153,38 @@ h1:nth-child(2){
             background: none;
   }
 }
+@media screen and (max-width: 768px) {
+    h1:first-child,
+    h1:nth-child(2) {
+      font-size: 5em;
+      right: 20px;
+      text-align: center;
+    }
+  
+    .container {
+      height: 100vh;
+    }
+
+  
+    .cloud-left, .cloud-right {
+      font-size: 5em;
+      left: 0;
+      right: 0;
+      top: 0;
+      display: none;
+    }
+  
+    .cloud-left:after,
+    .cloud-right:after {
+      display: none;
+    }
+  
+    /* .center {
+      transform: translate(-50%, -30%);
+    } */
+  
+    /* .comet {
+      display: none;
+    } */
+  }
+  
